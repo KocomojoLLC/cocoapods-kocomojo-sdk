@@ -23,7 +23,7 @@ module Pod
           help! "Please specify your .xcodeproj"
         end 
 
-        unless File.directory?(ARGV[0])
+        unless File.directory?(@xcodeproj)
           help! "Unable to find #{@xcodeproj}"
         end
       end 
