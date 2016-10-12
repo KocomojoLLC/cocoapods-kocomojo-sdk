@@ -29,7 +29,7 @@ module Pod
       end 
 
       def run 
-        project = Xcodeproj::Project.open(ARGV[0])
+        project = Xcodeproj::Project.open(@xcodeproj)
         main_target = project.targets.first
 
         phase = nil
