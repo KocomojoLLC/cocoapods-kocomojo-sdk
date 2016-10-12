@@ -48,8 +48,8 @@ module Pod
         end
 
         phase.shell_script = %{if [ -e "\${BUILT_PRODUCTS_DIR}/\${FRAMEWORKS_FOLDER_PATH}/KocomojoSDK.framework/strip-frameworks.sh" ]; then
-        bash "\${BUILT_PRODUCTS_DIR}/\${FRAMEWORKS_FOLDER_PATH}/KocomojoSDK.framework/strip-frameworks.sh"
-        fi}
+bash "\${BUILT_PRODUCTS_DIR}/\${FRAMEWORKS_FOLDER_PATH}/KocomojoSDK.framework/strip-frameworks.sh"
+fi}
 
         project.save()
       end 
