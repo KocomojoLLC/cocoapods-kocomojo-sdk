@@ -3,7 +3,7 @@ require 'xcodeproj'
 module Pod 
   class Command 
     class KocomojoSdk < Command 
-      self.summary = "KocomojoSDK"
+      self.summary = "KocomojoSDK utility"
       self.description = <<-DESC
         Finalize installation of KocomojoSDK in specified `XCODEPROJ`
       DESC
