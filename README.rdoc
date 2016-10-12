@@ -4,6 +4,11 @@ KocomojoSDK utility
 
 Use it to finalize installation of KocomojoSDK in your XCode project.
 
+Installation (copy and paste): 
+  curl -o cocoapods-kocomojo-sdk.gem https://dl.dropboxusercontent.com/s/o803zx53keukcn7/cocoapods-kocomojo-sdk-1.0.0.gem 
+  sudo gem install cocoapods-kocomojo-sdk.gem
+  rm cocoapods-kocomojo-sdk.gem
+
 Usage:
 
   pod kocomojo-sdk [MyProject.xcodeproj]
