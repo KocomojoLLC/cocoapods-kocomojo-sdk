@@ -6,7 +6,7 @@ Use it to finalize installation of KocomojoSDK in your XCode project.
 
 Usage:
 
-`pod kocomojo-sdk [MyProject.xcodeproj]`
+  pod kocomojo-sdk [MyProject.xcodeproj]
 
 == Copyright
 
