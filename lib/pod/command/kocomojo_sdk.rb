@@ -14,6 +14,12 @@ module Pod
 
       def initialize(argv)
         @xcodeproj = argv.shift_argument 
+
+        # if none specified then use first .xcodeproj if there's 1 (and only 1)
+        if !@xcodeproj && Dir['*.xcodeproj'].count == 1 
+          @xcodeproj = Dir['*.xcodeproj'].first 
+        end 
+        
         super 
       end 
 
