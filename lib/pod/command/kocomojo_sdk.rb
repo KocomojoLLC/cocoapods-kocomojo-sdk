@@ -58,6 +58,8 @@ bash "\${BUILT_PRODUCTS_DIR}/\${FRAMEWORKS_FOLDER_PATH}/KocomojoSDK.framework/st
 fi}
 
         project.save()
+
+        puts "Success!"
       end 
     end
   end
