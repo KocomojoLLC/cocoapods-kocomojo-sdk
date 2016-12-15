@@ -12,8 +12,6 @@ Usage:
 
   pod kocomojo-sdk [MyProject.xcodeproj]
 
-This adds a final Build Phase to your project that strips KocomojoSDK of unnecssary architectures.
-
 == Copyright
 
 Copyright (c) 2016 Kocomojo, LLC. See LICENSE.txt for
