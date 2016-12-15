@@ -9,14 +9,14 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Elijah Windsor"]
   spec.email         = ["ewindsor@gmail.com"]
   spec.summary       = "KocomojoSDK utility"
-  spec.description   = <<-EOF 
+  spec.description   = <<-EOF
     CocoaPods plugin that adds a Build Phase to XCode Project 
     to remove unnecessary architectures from current destination 
     (iOS Simulator, iOS Device) from KocomojoSDK.  
 
     iOS Apps can leverage KocomojoSDK to add user-defined experiences in response 
     to geolocation / iBeacons.  
-  EOF 
+EOF
   spec.homepage      = "https://github.com/KocomojoLLC/cocoapods-kocomojo-sdk"
   spec.license       = "MIT"
 
