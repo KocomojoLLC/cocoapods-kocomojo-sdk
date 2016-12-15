@@ -1,8 +1,8 @@
 = cocoapods-kocomojo-sdk
 
-KocomojoSDK utility 
+CocoaPods plugin that adds a Build Phase to XCode Project to remove unnecessary architectures from current destination (iOS Simulator, iOS Device) from KocomojoSDK.  
 
-Use it to finalize installation of KocomojoSDK in your XCode project.
+iOS Apps can leverage KocomojoSDK to add user-defined experiences in response to geolocation / iBeacons.  
 
 To install:
 
